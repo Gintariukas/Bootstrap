@@ -1,0 +1,111 @@
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color:#919191;
+}
+/* Section One and Six */
+.container-fluid {
+  background-color: rgb(51,51,51);
+  .col-lg-6 {
+    h1 {
+      color: silver;
+    }
+    h2 {
+      font-size: 14px;
+      margin-top: 0;
+      color: silver;
+    }
+    .navbar {
+      margin-top: 20px;
+      background-color: black;
+      .nav {
+        padding: 20px;
+      }
+      li {
+        padding-left: 20px;
+        color: white;
+      }
+      li:hover {
+        color: orange;
+      }
+      .navbar-toggle {
+        background-color: #919191;
+      }
+    }
+  }
+  footer {
+    margin-top: 15px;
+    p {
+      color: silver;
+    }
+    .ending {
+      float: right;
+      margin-top: -30px;
+    }
+  }
+}
+/* Section Two */
+.picture-one {
+  width: 100%;
+  margin: 15px 0;
+}
+/* Section Three */
+.bottom {
+  border-bottom: 1px solid silver;
+  padding-bottom: 30px;
+  margin: 15px 0;
+}
+.col-lg-3 {
+  a {
+    color: orange;
+    float: right;
+  }
+}
+/* Section Four */
+.picture-two {
+  border: 1px silver solid;
+  padding: 3px;
+  margin: auto;
+}
+.col-lg-12 {
+  p {
+    float: right;
+    padding-top: 10px;
+  }
+  a {
+    color: orange;
+  }
+}
+/* Section Five */
+.end {
+  margin-bottom: 20px;
+  .picture-three {
+    border: 1px silver solid;
+    padding: 3px;
+  }
+  .col-lg-4 {
+    h2 {
+      font-size: 25px;
+      margin-left: 10px;
+    }
+    li {
+      border-bottom: 1px dotted silver;
+      list-style-type: none;
+      padding-bottom: 5px;
+    }
+    a {
+      color: #919191;
+    }
+  }
+  a {
+    color: orange;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #end {
+    .picture-three {
+      width: 105px;
+      height: 100px;
+    }
+  }
+}
